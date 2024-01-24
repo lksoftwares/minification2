@@ -3,11 +3,11 @@
   "name": "attendense_management_api",
   "version": "1.0.0",
   "description": "",
-  "main": "/dist/build.js",
+  "main": "build.js",
   "scripts": {
     "start": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "build": "webpack --config webpack.dev.js",
-    "buildstart": "node ./dist/build.js"
+    "buildstart": "node ./build.js"
   },
   "author": "Shine",
   "license": "ISC",
